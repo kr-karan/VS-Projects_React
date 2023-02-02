@@ -1,0 +1,17 @@
+.image-div{
+    padding: 1rem;
+    margin: 1px;
+    justify-content: center;
+}
+.Discription{
+    /* padding: 1rem;
+    margin: 1px; */
+    justify-content: center;
+    display: grid;
+    /* flex-direction: row; */
+    
+    
+}
+.card-component{
+    background: aliceblue;
+}

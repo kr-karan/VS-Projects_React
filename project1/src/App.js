@@ -23,6 +23,9 @@ import ComponentC from './components/Hooks/UseContext&UseReducer/ComponentC';
 import FetchUseState from './components/Hooks/Usestate&UseReducer/fetchUseState';
 import FetchReducer from './components/Hooks/Usestate&UseReducer/fetchReducer';
 import ChildComponent from './components/childComponent';
+import ParentCompo from './components/Hooks/UseCallback/ParentCompo';
+import CounterOne from './components/Hooks/UseMemo/CounterOne';
+import ChangeTextUseref from './components/Hooks/UseRef/ChangeTextUseref';
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -81,7 +84,10 @@ function App() {
     </CountContext.Provider> */}
     {/* <div>ch */}
 {/* <ChildComponent/> */}
-<ParentComponent/>
+{/* <ParentComponent/> */}
+{/* <ParentCompo/> */}
+{/* <CounterOne/> */}
+<ChangeTextUseref/>
    </div>
   );
 }

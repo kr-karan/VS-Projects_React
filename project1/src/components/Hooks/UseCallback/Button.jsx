@@ -1,11 +1,12 @@
 import React from 'react'
 
-function Button() {
+function Button({handleclick,children}) {
+  console.log(`rendering Button - `,children)
   return (
     <div>
-      
+      <button onClick={handleclick}>{children}</button>
     </div>
   )
 }
 
-export default Button
+export default React.memo(Button)
